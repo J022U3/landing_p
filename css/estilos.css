@@ -17,9 +17,6 @@ html{
     padding: 0;
 }
 
-body{
-    font-family: 'Silkscreen', cursive;
-}
 
 .container{
     width: 90%;
@@ -374,19 +371,23 @@ se encuentre en un rango de 660px - 959px*/
 
 @media screen and (max-width: 959px){
 
+
+
     #intro {
         flex-flow: column wrap;
         
     }
 
     h1{
-        font-size: 3.3rem;
+        font-size: 2rem;
     }
 
     #descripcion {
         flex-basis: 100%;
         padding: 0 0 0 0;
         flex-grow: 0;
+        text-align: justify;
+     
     }
 
     #seccionDos {
